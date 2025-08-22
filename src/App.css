@@ -1,0 +1,39 @@
+#root {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0;
+  text-align: center;
+  min-height: 100vh;
+}
+
+body {
+  background-color: #2d062d;
+}
+
+.innerBody {
+  width: 100%;
+}
+
+.contentbg {
+  width: 100%;
+}
+
+.resume {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-top: 200px;
+  .portrait {
+    border-radius: 40px;
+    width: 20%;
+  }
+  .description {
+    font-family: "Mozilla Headline";
+    color: white;
+    font-weight: 400;
+    font-size: 28px;
+    width: 70%;
+  }
+}

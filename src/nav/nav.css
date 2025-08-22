@@ -1,0 +1,24 @@
+.nav {
+  background-color: #1b0524;
+  width: 10%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  margin: 80px 20px;
+  padding: 40px 0;
+  border-radius: 80px;
+}
+
+.navButtons {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.siteLink {
+  padding: 15px;
+  text-decoration: none;
+  font-size: 30px;
+  color: rgb(255, 255, 255);
+  font-weight: 900;
+}

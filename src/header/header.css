@@ -1,0 +1,29 @@
+.techpic {
+  width: 60%;
+  height: 420px;
+  /* filter: blur(2px); */
+  overflow: hidden;
+
+  border-radius: 210px;
+}
+
+.header {
+  position: relative;
+  margin: 20px;
+  height: 420px;
+  overflow: hidden;
+}
+
+.style1 {
+  font-size: 70px;
+  font-family: "Mozilla Headline";
+  font-weight: bold;
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-shadow: 2px 2px 4px black;
+  margin: 15px;
+  z-index: 2;
+}
