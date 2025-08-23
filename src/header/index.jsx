@@ -3,10 +3,16 @@ function Header() {
   return (
     <div className="header">
       <p className="style1">
-        Bienvenue,
-        <br /> je suis DENIS Lucien et vous <br /> êtes sur mon portfolio.
+        DENIS Lucien - Développeur fullstack
+        <br />
+        Bienvenue
+        <br />
       </p>
-      <img src="src/assets/pic2.avif" className="techpic" alt=""></img>
+      <img
+        src="src/assets/bestamisarikaya.jpg"
+        className="techpic"
+        alt=""
+      ></img>
     </div>
   );
 }
