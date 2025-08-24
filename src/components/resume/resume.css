@@ -1,0 +1,27 @@
+.resume {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 200px 0 200px 0;
+  .portrait {
+    border-radius: 40px;
+    width: 20%;
+  }
+  .textdiv {
+    width: 70%;
+    .description {
+      font-family: "Mozilla Headline";
+      color: white;
+      font-weight: 400;
+      font-size: 28px;
+    }
+
+    h2 {
+      font-family: "Mozilla Headline";
+      color: white;
+      font-weight: 400;
+      font-size: 40px;
+    }
+  }
+}

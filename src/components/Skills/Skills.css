@@ -1,0 +1,9 @@
+.skills {
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  flex-direction: column;
+
+  .row {
+    justify-content: space-evenly;
+  }
+}

@@ -1,0 +1,52 @@
+.frontSkills {
+  width: 40%;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  h3 {
+    width: 40%;
+    font-family: "Mozilla Headline";
+    color: black;
+    font-weight: 400;
+    font-size: 28px;
+    margin-bottom: 100px;
+  }
+
+  .roundWheelFront {
+    position: relative;
+    width: 450px;
+    height: 450px;
+    border-radius: 50%;
+    border: 5px dashed grey;
+  }
+  .front1 {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    top: 0%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .front2 {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    top: 80%;
+    left: 88%;
+    transform: translate(-50%, -50%);
+  }
+  .front3 {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    top: 80%;
+    left: 12%;
+    transform: translate(-50%, -50%);
+  }
+}

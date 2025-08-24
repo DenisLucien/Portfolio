@@ -20,21 +20,7 @@ body {
   width: 100%;
 }
 
-.resume {
+.row {
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
-  align-items: center;
-  margin-top: 200px;
-  .portrait {
-    border-radius: 40px;
-    width: 20%;
-  }
-  .description {
-    font-family: "Mozilla Headline";
-    color: white;
-    font-weight: 400;
-    font-size: 28px;
-    width: 70%;
-  }
 }
