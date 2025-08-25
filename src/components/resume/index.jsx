@@ -1,7 +1,7 @@
 import "./resume.css";
 function Resume() {
   return (
-    <div className="resume">
+    <div className="resume" id="resume">
       <img src="src/assets/portraitLD.png" alt="" className=" portrait"></img>
       <div className="textdiv">
         <h2>Qui suis-je ?</h2>

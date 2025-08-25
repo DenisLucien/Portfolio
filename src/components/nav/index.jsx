@@ -1,23 +1,29 @@
 import "./nav.css";
 function Nav() {
   return (
-    <div className="nav">
-      <a href="" class="siteLink">
-        Portfolio <br></br>DENIS Lucien
-      </a>
-      <div class="navButtons">
+    <header>
+      <nav className="nav">
         <a href="" class="siteLink">
-          Présentation
+          <i class="fa-solid fa-briefcase"></i> Portfolio - DENIS Lucien
         </a>
-        <a href="" class="siteLink">
-        Compétences
-        </a>  
-        
-        <a href="" class="siteLink">
-        Contacts
-      </a>
-      </div>
-    </div>
+        <div class="navButtons">
+          <a href="#resume" class="siteLink">
+            Présentation
+          </a>
+          <a href="#skills" class="siteLink">
+            Compétences
+          </a>
+
+          <a href="" class="siteLink">
+            Contacts
+          </a>
+
+          <a href="#projects" class="siteLink">
+            Derniers Projets
+          </a>
+        </div>
+      </nav>
+    </header>
   );
 }
 

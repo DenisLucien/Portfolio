@@ -3,29 +3,18 @@
   padding: 50px;
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
-
-  h3 {
-    width: 40%;
-    font-family: "Mozilla Headline";
-    color: black;
-    font-weight: 400;
-    font-size: 28px;
-    margin-bottom: 100px;
-  }
 
   .roundWheelBack {
     position: relative;
     width: 450px;
     height: 450px;
     border-radius: 50%;
-    border: 5px dashed grey;
+    border: 5px dashed black;
   }
   .back1 {
     position: absolute;
     width: 150px;
-    height: 150px;
     object-fit: cover;
     top: 0%;
     left: 50%;
@@ -33,20 +22,34 @@
   }
   .back2 {
     position: absolute;
-    width: 150px;
     height: 150px;
     object-fit: cover;
-    top: 80%;
-    left: 88%;
+    top: 33%;
+    left: 100%;
     transform: translate(-50%, -50%);
   }
   .back3 {
     position: absolute;
-    width: 150px;
-    height: 150px;
+    height: 200px;
     object-fit: cover;
-    top: 80%;
+    top: 85%;
+    left: 88%;
+    transform: translate(-50%, -50%);
+  }
+  .back4 {
+    position: absolute;
+    height: 175px;
+    object-fit: cover;
+    top: 83%;
     left: 12%;
+    transform: translate(-50%, -50%);
+  }
+  .back5 {
+    position: absolute;
+    height: 100px;
+    object-fit: cover;
+    top: 33%;
+    left: 0%;
     transform: translate(-50%, -50%);
   }
 }

@@ -2,8 +2,10 @@ import "./frontSkills.css";
 
 function frontSkills() {
   return (
-      <div className="frontSkills">
-          <h3>Front-End</h3>
+    <div className="frontSkills">
+      <h3>
+        <i class="fa-solid fa-marker"></i> - Front-End
+      </h3>
       <div className="roundWheelFront">
         <img
           src="src/assets/techLogo/javascript.png"
@@ -21,6 +23,12 @@ function frontSkills() {
           className="front3"
         ></img>
       </div>
+      <p className="belowWheelText">
+        Langages : JavaScript, TypeScript <br />
+        Frameworks et Bibliothèques : React
+        <br />
+        Intégration Web : HTML5, CSS5, SCSS (Flexbox, Grid, animations CSS)
+      </p>
     </div>
   );
 }

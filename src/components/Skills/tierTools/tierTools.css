@@ -1,0 +1,18 @@
+.tierTools {
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  h3{
+    margin-bottom: 30px !important;
+  }
+}
+
+.tierToolsText {
+  width: 100%;
+  margin: 30px;
+  font-family: "Mozilla Headline";
+  color: white;
+  font-weight: 700;
+  font-size: 24px;
+}
