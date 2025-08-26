@@ -3,7 +3,7 @@ function Nav() {
   return (
     <header>
       <nav className="nav">
-        <a href="" class="siteLink">
+        <a href="#header" class="siteLink">
           <i class="fa-solid fa-briefcase"></i> Portfolio - DENIS Lucien
         </a>
         <div class="navButtons">
@@ -14,12 +14,12 @@ function Nav() {
             Compétences
           </a>
 
-          <a href="" class="siteLink">
-            Contacts
-          </a>
-
           <a href="#projects" class="siteLink">
             Derniers Projets
+          </a>
+
+          <a href="#contacts" class="siteLink">
+            Contacts
           </a>
         </div>
       </nav>

@@ -25,7 +25,8 @@ nav {
 }
 
 .siteLink {
-  padding: 15px;
+  padding: 15px 30px;
+  border-radius: 10px;
   text-decoration: none;
   font-size: 30px;
   color: rgb(255, 255, 255);

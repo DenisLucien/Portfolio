@@ -13,8 +13,14 @@
     border: 5px dashed black;
     transition: transform 1s ease;
   }
+
   .roundWheelFront:hover {
     transform: rotate(180deg);
+  }
+  .roundWheelFront:hover .front1,
+  .roundWheelFront:hover .front2,
+  .roundWheelFront:hover .front3 {
+    transform: translate(-50%, -50%) rotate(-180deg);
   }
   .front1 {
     position: absolute;
@@ -24,6 +30,7 @@
     top: 0%;
     left: 50%;
     transform: translate(-50%, -50%);
+    transition: transform 1s ease;
   }
   .front2 {
     position: absolute;
@@ -32,6 +39,7 @@
     object-fit: cover;
     top: 80%;
     left: 88%;
+    transition: transform 1s ease;
     transform: translate(-50%, -50%);
     border-radius: 10px;
   }
@@ -43,5 +51,6 @@
     top: 80%;
     left: 12%;
     transform: translate(-50%, -50%);
+    transition: transform 1s ease;
   }
 }

@@ -1,7 +1,7 @@
 import "./header.css";
 function Header() {
   return (
-    <div className="header">
+    <div className="header" id="header">
       <p className="style1">
         DENIS Lucien - Développeur fullstack
         <br />

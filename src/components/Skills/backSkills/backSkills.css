@@ -11,7 +11,21 @@
     height: 450px;
     border-radius: 50%;
     border: 5px dashed black;
+    transition: transform 1s ease;
   }
+
+  .roundWheelBack:hover {
+    transform: rotate(180deg);
+  }
+
+  .roundWheelBack:hover .back1,
+  .roundWheelBack:hover .back2,
+  .roundWheelBack:hover .back3,
+  .roundWheelBack:hover .back4,
+  .roundWheelBack:hover .back5 {
+    transform: translate(-50%, -50%) rotate(-180deg);
+  }
+
   .back1 {
     position: absolute;
     width: 150px;
@@ -19,6 +33,7 @@
     top: 0%;
     left: 50%;
     transform: translate(-50%, -50%);
+    transition: transform 1s ease;
   }
   .back2 {
     position: absolute;
@@ -27,6 +42,7 @@
     top: 33%;
     left: 100%;
     transform: translate(-50%, -50%);
+    transition: transform 1s ease;
   }
   .back3 {
     position: absolute;
@@ -35,6 +51,7 @@
     top: 85%;
     left: 88%;
     transform: translate(-50%, -50%);
+    transition: transform 1s ease;
   }
   .back4 {
     position: absolute;
@@ -43,6 +60,7 @@
     top: 83%;
     left: 12%;
     transform: translate(-50%, -50%);
+    transition: transform 1s ease;
   }
   .back5 {
     position: absolute;
@@ -51,5 +69,6 @@
     top: 33%;
     left: 0%;
     transform: translate(-50%, -50%);
+    transition: transform 1s ease;
   }
 }
