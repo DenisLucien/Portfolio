@@ -1,4 +1,9 @@
 import "./backSkills.css";
+import symfony from "../../assets/techLogo/symfony.png";
+import phpLogo from "../../assets/techLogo/phpLogo.png";
+import nodeJS from "../../assets/techLogo/nodeJS.png";
+import express from "../../assets/techLogo/express.png";
+import mongoDB8 from "../../assets/techLogo/mongoDB8.png";
 
 function backSkills() {
   return (
@@ -8,27 +13,27 @@ function backSkills() {
       </h3>
       <div className="roundWheelBack">
         <img
-          src="src/assets/techLogo/symfony.png"
+          src={symfony}
           alt=""
           className="back1"
         ></img>
         <img
-          src="src/assets/techLogo/phpLogo.png"
+          src={phpLogo}
           alt=""
           className="back2"
         ></img>
         <img
-          src="src/assets/techLogo/nodeJS.png"
+          src={nodeJS}
           alt=""
           className="back3"
         ></img>
         <img
-          src="src/assets/techLogo/express.png"
+          src={express}
           alt=""
           className="back4"
         ></img>
         <img
-          src="src/assets/techLogo/mongoDB8.png"
+          src={mongoDB8}
           alt=""
           className="back5"
         ></img>
