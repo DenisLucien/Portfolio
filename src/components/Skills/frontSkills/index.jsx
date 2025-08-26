@@ -1,7 +1,7 @@
 import "./frontSkills.css";
-import Javascript from "../../assets/techLogo/javascript.png";
-import Typescript from "../../assets/techLogo/typescript.png";
-import ReactJS from "../../assets/techLogo/React-JS.png";
+import Javascript from "../../../assets/techLogo/javascript.png";
+import Typescript from "../../../assets/techLogo/typescript.png";
+import ReactJS from "../../../assets/techLogo/React-JS.png";
 function frontSkills() {
   return (
     <div className="frontSkills">
