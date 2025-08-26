@@ -1,4 +1,5 @@
 import "./header.css";
+import techPic from "../../assets/bestamisarikaya.jpg";
 function Header() {
   return (
     <div className="header" id="header">
@@ -9,7 +10,7 @@ function Header() {
         <br />
       </p>
       <img
-        src="src/assets/bestamisarikaya.jpg"
+        src={techPic}
         className="techpic"
         alt=""
       ></img>

@@ -1,8 +1,9 @@
 import "./resume.css";
+import portraitLD from "../../assets/portraitLD.png";
 function Resume() {
   return (
     <div className="resume" id="resume">
-      <img src="src/assets/portraitLD.png" alt="" className=" portrait"></img>
+      <img src={portraitLD} alt="" className=" portrait"></img>
       <div className="textdiv">
         <h2>Qui suis-je ?</h2>
         <p className="description">

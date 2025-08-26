@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://denislucien.github.io/Portfolio/",
+  "homepage": "https://denislucien.github.io/Portfolio",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
