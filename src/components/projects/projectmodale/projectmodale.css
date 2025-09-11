@@ -1,0 +1,55 @@
+.projectmodale {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: rgba(0, 0, 0, 0.2);
+  z-index: 1000;
+
+  h3 {
+    font-family: "Mozilla Headline";
+    color: white;
+    font-weight: 900;
+    font-size: 40px;
+  }
+
+  .blocImgDescr {
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    align-items: center;
+    justify-content: space-between;
+    border: solid 8px #b570bb;
+    border-radius: 60px;
+    background: rgba(0, 0, 0, 0.4);
+    img {
+      max-width: 70%;
+      height: 70vh;
+      object-fit: cover;
+      border-radius: 60px 0 0 60px;
+      border-right: 15px solid #b570bb;
+    }
+    .modaledescription {
+      width: 30%;
+      font-family: "Mozilla Headline";
+      color: white;
+      font-weight: 700;
+      font-size: 28px;
+    }
+  }
+
+  button {
+    margin: 30px;
+    color: black;
+  }
+
+  button:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 15px #ff66ff;
+  }
+}
