@@ -16,3 +16,13 @@
   font-weight: 700;
   font-size: 24px;
 }
+@media (max-width: 1280px) {
+  .tierToolsText {
+  width: 100%;
+  margin: 30px;
+  font-family: "Mozilla Headline";
+  color: white;
+  font-weight: 700;
+  font-size: 18px !important;
+}
+}

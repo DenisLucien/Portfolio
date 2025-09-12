@@ -8,14 +8,14 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background: rgba(0, 0, 0, 0.2);
+  background: rgba(0, 0, 0, 0.4);
   z-index: 1000;
 
   h3 {
     font-family: "Mozilla Headline";
     color: white;
     font-weight: 900;
-    font-size: 40px;
+    font-size: 50px;
   }
 
   .blocImgDescr {
@@ -26,30 +26,60 @@
     justify-content: space-between;
     border: solid 8px #b570bb;
     border-radius: 60px;
-    background: rgba(0, 0, 0, 0.4);
+    background: rgba(0, 0, 0, 0.7);
     img {
-      max-width: 70%;
+      width: 70%;
       height: 70vh;
       object-fit: cover;
       border-radius: 60px 0 0 60px;
       border-right: 15px solid #b570bb;
     }
-    .modaledescription {
+    .rightside {
       width: 30%;
-      font-family: "Mozilla Headline";
-      color: white;
-      font-weight: 700;
-      font-size: 28px;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-evenly;
+      .modaledescription {
+        font-family: "Mozilla Headline";
+        padding: 10px;
+        color: white;
+        font-weight: 700;
+        font-size: 28px;
+      }
+      a {
+        text-decoration: none;
+        font-weight: 700;
+        font-size: 28px;
+        color: #b570bb;
+      }
+      a:hover {
+        color: black;
+        background-color: #e8b2ec;
+        transform: scale(1.05);
+        box-shadow: 0 0 15px #e8b2ec;
+        border-radius: 10px;
+        padding: 10px;
+      }
     }
   }
 
   button {
+    all: unset; /* enlève tous les styles par défaut */
+    border-radius: 20px;
+    padding: 30px;
     margin: 30px;
-    color: black;
+    background-color: #b570bb;
+    color: white;
+    font-weight: 700;
+    font-size: 28px;
+    color: #2d062d;
+    cursor: pointer;
   }
 
   button:hover {
     transform: scale(1.05);
-    box-shadow: 0 0 15px #ff66ff;
+    box-shadow: 0 0 25px #2d062d;
   }
 }

@@ -25,3 +25,11 @@
     }
   }
 }
+
+@media (max-width: 1280px) {
+  .latestProjects {
+    h3 {
+      margin: 0px !important;
+    }
+  }
+}

@@ -3,7 +3,7 @@
   flex-direction: row;
   justify-content: space-evenly;
   align-items: center;
-  margin: 200px 0 200px 0;
+  padding: 200px 0 200px 0;
   .portrait {
     border-radius: 40px;
     width: 20%;
@@ -23,5 +23,35 @@
       font-weight: 400;
       font-size: 40px;
     }
+  }
+}
+
+@media (max-width: 1280px) {
+  .resume {
+    flex-direction: column;
+    padding: 100px 0 100px 0;
+    .portrait {
+      border-radius: 40px;
+      width: 40%;
+      margin-bottom: 50px;
+    }
+    .textdiv {
+      width: 70%;
+      .description {
+        font-size: 22px;
+      }
+
+      h2 {
+        font-size: 28px;
+      }
+    }
+  }
+}
+@media (max-width: 767px) {
+  .techpic {
+    height: 800px;
+  }
+  .style1 {
+    font-size: 35px;
   }
 }

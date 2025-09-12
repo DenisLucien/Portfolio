@@ -54,3 +54,36 @@
     transition: transform 1s ease;
   }
 }
+
+@media (max-width: 1280px) {
+  .frontSkills {
+    width: 90% !important;
+    padding: 0 50px !important;
+    box-sizing: border-box;
+  }
+  .roundWheelFront {
+    width: 225px !important;
+    height: 225px !important;
+  }
+  .front1 {
+    width: 75px !important;
+    height: 75px !important;
+  }
+  .front2 {
+    width: 75px !important;
+    height: 75px !important;
+  }
+  .front3 {
+    width: 75px !important;
+    height: 75px !important;
+  }
+  .belowWheelText {
+    width: 100%;
+    margin: 50px;
+    font-family: "Mozilla Headline";
+    color: white;
+    font-weight: 700;
+    font-size: 18px !important;
+    margin-bottom: 80px !important;
+  }
+}

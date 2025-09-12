@@ -72,3 +72,49 @@
     transition: transform 1s ease;
   }
 }
+
+@media (max-width: 1280px) {
+  .roundWheelBack {
+    width: 225px !important;
+    height: 225px !important;
+  }
+  .back1 {
+    width: 75px !important;
+    height: 75px !important;
+    object-fit: contain !important;
+  }
+  .back2 {
+    width: 75px !important;
+    height: 75px !important;
+    object-fit: contain !important;
+  }
+  .back3 {
+    width: 75px !important;
+    height: 75px !important;
+    object-fit: contain !important;
+  }
+  .back4 {
+    width: 75px !important;
+    height: 75px !important;
+    object-fit: contain !important;
+  }
+  .back5 {
+    width: 75px !important;
+    height: 75px !important;
+    object-fit: contain !important;
+  }
+}
+.belowWheelText {
+  width: 100%;
+  margin: 50px;
+  font-family: "Mozilla Headline";
+  color: white;
+  font-weight: 700;
+  font-size: 18px !important;
+  margin-bottom: 80px !important;
+}
+.backSkills {
+  width: 90% !important;
+  padding: 0 50px;
+  box-sizing: border-box;
+}
