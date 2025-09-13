@@ -103,6 +103,11 @@
     height: 75px !important;
     object-fit: contain !important;
   }
+  .backSkills {
+    width: 90% !important;
+    padding: 0 50px;
+    box-sizing: border-box;
+  }
 }
 .belowWheelText {
   width: 100%;
@@ -112,9 +117,4 @@
   font-weight: 700;
   font-size: 18px !important;
   margin-bottom: 80px !important;
-}
-.backSkills {
-  width: 90% !important;
-  padding: 0 50px;
-  box-sizing: border-box;
 }
