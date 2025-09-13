@@ -22,6 +22,7 @@
     display: flex;
     flex-direction: row;
     width: 80%;
+    height: 70vh;
     align-items: center;
     justify-content: space-between;
     border: solid 8px #b570bb;
@@ -29,7 +30,7 @@
     background: rgba(0, 0, 0, 0.7);
     img {
       width: 70%;
-      height: 70vh;
+      height: 100%;
       object-fit: cover;
       border-radius: 60px 0 0 60px;
       border-right: 15px solid #b570bb;
@@ -46,7 +47,7 @@
         padding: 10px;
         color: white;
         font-weight: 700;
-        font-size: 28px;
+        font-size: 20px;
       }
       a {
         text-decoration: none;
@@ -66,7 +67,7 @@
   }
 
   button {
-    all: unset; /* enlève tous les styles par défaut */
+    all: unset;
     border-radius: 20px;
     padding: 30px;
     margin: 30px;
@@ -81,5 +82,98 @@
   button:hover {
     transform: scale(1.05);
     box-shadow: 0 0 25px #2d062d;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1280px) {
+  .projectmodale {
+    .blocImgDescr {
+      flex-direction: column;
+      width: 80%;
+      height: 70vh;
+      img {
+        width: 100%;
+        height: 55%;
+        object-fit: cover;
+        border-radius: 50px 50px 0 0;
+        border-right: none;
+        border-bottom: 15px solid #b570bb;
+      }
+      .rightside {
+        width: 100%;
+        height: 45%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        .modaledescription {
+          font-family: "Mozilla Headline";
+          padding: 10px;
+          color: white;
+          font-weight: 700;
+          font-size: 14px;
+        }
+      }
+    }
+  }
+}
+@media (max-width: 767px) {
+  .projectmodale {
+    h3 {
+    font-family: "Mozilla Headline";
+    color: white;
+    font-weight: 900;
+    font-size: 35px;
+  }
+    .blocImgDescr {
+      flex-direction: column;
+      width: 80%;
+      height: 70vh;
+      img {
+        width: 100%;
+        height: 55%;
+        object-fit: cover;
+        border-radius: 50px 50px 0 0;
+        border-right: none;
+        border-bottom: 15px solid #b570bb;
+      }
+      .rightside {
+        width: 100%;
+        height: 45%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        .modaledescription {
+          font-family: "Mozilla Headline";
+          padding: 10px;
+          color: white;
+          font-weight: 700;
+          font-size: 10px;
+        }
+        a {
+          text-decoration: none;
+          font-weight: 700;
+          font-size: 18px;
+          color: #b570bb;
+        }
+      }
+      button {
+        all: unset;
+        border-radius: 20px;
+        padding: 30px;
+        margin: 30px;
+        background-color: #b570bb;
+        color: white;
+        font-weight: 700;
+        font-size: 18px !important;
+        color: #2d062d;
+        cursor: pointer;
+      }
+      button:hover {
+        transform: scale(1.05);
+        box-shadow: 0 0 25px #2d062d;
+      }
+    }
   }
 }

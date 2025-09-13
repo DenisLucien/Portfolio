@@ -23,6 +23,7 @@
   }
   .row {
     justify-content: space-evenly;
+    align-items: center;
   }
   .belowWheelText {
     width: 100%;

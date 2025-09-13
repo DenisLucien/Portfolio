@@ -34,11 +34,20 @@
     font-size: 50px;
   }
 }
-@media (max-width: 767px) {
+@media (min-width: 501px) and (max-width: 767px) {
   .techpic {
     height: 800px;
   }
   .style1 {
     font-size: 35px;
+  }
+}
+
+@media (max-width: 500px) {
+  .techpic {
+    height: 800px;
+  }
+  .style1 {
+    font-size: 25px !important;
   }
 }
