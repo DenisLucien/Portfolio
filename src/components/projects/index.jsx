@@ -20,7 +20,7 @@ let projects = [
     lien: "https://github.com/DenisLucien/MonVieuxGrimoire",
   },
   {
-    titre: "BastardBookingSystem",
+    titre: "Bastard Booking System",
     imgsrc: SiteWebForm,
     description: `Le projet BastardBookingSystem est un projet permettant l'envoi de demandes de représentations pour groupe de musiques.
       Le but est de pouvoir automatiquement demander des demandes et d'en garder un suivi via crm.
@@ -83,7 +83,7 @@ function Projects() {
         </div>
 
         <div className="project" onClick={() => toggleModale(1)}>
-          <h3>Projet Symfony - BastardBookingSystem</h3>
+          <h3>Projet Symfony - Bastard Booking System</h3>
           <img src={SiteWebForm} alt=""></img>
           <p className="projectText"></p>
         </div>
