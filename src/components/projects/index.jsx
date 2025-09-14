@@ -2,6 +2,9 @@ import "./projects.css";
 import monVieuxGrimoire from "../../assets/monVieuxGrimoire.png";
 import SiteWebForm from "../../assets/SiteWebForm.png";
 import KasaPic from "../../assets/Kasa.png";
+import Carducci from "../../assets/Carducci.jpg";
+import Booki from "../../assets/Booki.jpg";
+import Bluel from "../../assets/sophieBluel.jpg";
 import { useState } from "react";
 import ProjectModale from "./projectmodale";
 
@@ -35,6 +38,28 @@ let projects = [
     définie par l'entreprise.`,
     lien: "https://github.com/DenisLucien/ProjetKasa",
   },
+  {
+    titre: "Nina Carducci",
+    imgsrc: Carducci,
+    description: `L’objectif du projet était d’optimiser le site d’une photographe professionnelle afin d’améliorer ses
+     performances, son référencement naturel (SEO) et son accessibilité, en s’appuyant sur un audit réalisé avec Lighthouse.`,
+    lien: "https://github.com/DenisLucien/NinaCarducciSEO",
+  },
+  {
+    titre: "SophieBluel",
+    imgsrc: Bluel,
+    description: `L’objectif du projet était de développer un portfolio d’architecte en JavaScript en intégrant des fonctionnalités
+     dynamiques (galerie, filtres et gestion de projets) grâce à la manipulation du DOM et l’exploitation d’une API.`,
+    lien: "https://github.com/DenisLucien/SophieBluel",
+  },
+  {
+    titre: "Booki",
+    imgsrc: Booki,
+    description: `L’objectif du projet était d'intégrer une interface web statique pour reproduire fidèlement la maquette d’un site de réservation d’hébergements
+     et d’activités (Booki), en utilisant uniquement HTML5 et CSS3, tout en garantissant une mise en page responsive adaptée
+      aux différents supports (desktop, tablette, mobile).`,
+    lien: "https://github.com/DenisLucien/Projet_Booki",
+  },
 ];
 
 function Projects() {
@@ -49,23 +74,42 @@ function Projects() {
   return (
     <div className="latestProjects" id="projects">
       <h2>Derniers Projets</h2>
-      <div className="project" onClick={() => toggleModale(0)}>
-        <h3>Projet Express/MongoDB - Mon vieux Grimoire</h3>
-        <img src={monVieuxGrimoire} alt=""></img>
-        <p className="projectText"></p>
+
+      <div className="projectgrid">
+        <div className="project" onClick={() => toggleModale(0)}>
+          <h3>Projet Express/MongoDB - Mon vieux Grimoire</h3>
+          <img src={monVieuxGrimoire} alt=""></img>
+          <p className="projectText"></p>
+        </div>
+
+        <div className="project" onClick={() => toggleModale(1)}>
+          <h3>Projet Symfony - BastardBookingSystem</h3>
+          <img src={SiteWebForm} alt=""></img>
+          <p className="projectText"></p>
+        </div>
+
+        <div className="project" onClick={() => toggleModale(2)}>
+          <h3>Projet React/SCSS - Kasa</h3>
+          <img src={KasaPic} alt=""></img>
+          <p className="projectText"></p>
+        </div>
+        <div className="project" onClick={() => toggleModale(3)}>
+          <h3>Projet SEO/Debuggage - Nina Carducci</h3>
+          <img src={Carducci} alt=""></img>
+          <p className="projectText"></p>
+        </div>
+        <div className="project" onClick={() => toggleModale(4)}>
+          <h3>Projet JS/API - Sophie Bluel</h3>
+          <img src={Bluel} alt=""></img>
+          <p className="projectText"></p>
+        </div>
+        <div className="project" onClick={() => toggleModale(5)}>
+          <h3>Projet HTML/CSS - Booki</h3>
+          <img src={Booki} alt=""></img>
+          <p className="projectText"></p>
+        </div>
       </div>
 
-      <div className="project" onClick={() => toggleModale(1)}>
-        <h3>Projet Symfony - BastardBookingSystem</h3>
-        <img src={SiteWebForm} alt=""></img>
-        <p className="projectText"></p>
-      </div>
-
-      <div className="project" onClick={() => toggleModale(2)}>
-        <h3>Projet</h3>
-        <img src={KasaPic} alt=""></img>
-        <p className="projectText"></p>
-      </div>
       {modaleproject !== null && (
         <ProjectModale
           tabProj={projects}
